@@ -1,119 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>ohmyfood</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>    
-    <body>
-        <header>
-            <img src="images/logo/ohmyfood.png" alt="ohmyfood">
-        </header>
-        <header>
-            <form>
-                <i class="fa-solid fa-location-dot"></i>
-                <input type="search" placeholder="Paris, Belleville">
-            </form>
-        <h1>Réserver le menu qui vous convient</h1>
-        <p>Découvrez des restaurants d'exception séléctionnés par nos soins</p>
-        <a href="#restaurants">Explorer nos restaurants</a>
-            </header>
-            
-        <section class="fonctionnement">
-            <h2>Fonctionnement</h2>
+    <title>ohmyfood</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <meta name="description" content="OhMyFood, une plateforme pour choisir un restaurant, composer son menu, déguster"
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>  
+
+<body>
+    <header>
+        <h1>OhMyFood</h1> 
+    </header>
+
+    <form>
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="search" placeholder="Paris, Belleville">
+    </form>
+
+    <h1>Réserver le menu qui vous convient</h1>
+    <p>Découvrez des restaurants d'exception séléctionnés par nos soins</p>
+    <a href="#restaurants">Explorer nos restaurants</a>
+        
+    <section class="fonctionnement">
+        <h2>Fonctionnement</h2>
+        <ul>
+            <li>
+                <span>1</span>
+                <i class="fa-regular fa-mobile-screen"></i>
+                Choisissez un restaurant
+            </li>
+            <li>
+                <span>2</span>
+                <i class="fa-sharp fa-solid fa-list"></i>
+                Composez votre menu
+            </li>
+            <li>
+                <span>3</span>
+                <i class="fa-sharp fa-solid fa-store"></i> 
+                Dégustez au restaurant
+            </li>
+        </ul>
+    </section>
+
+    <main>
+        <article class="restaurants" id="restaurants">
             <ul>
                 <li>
-                    <span>1</span>
-                        <i class="fa-regular fa-mobile-screen"></i>
-                        Choisissez un restaurant
+                    <a href="menus/la palette du goût.html">
+                        <figure>
+                            <img src="images/restaurants/photo1.jpg" alt="La palette du gout">
+                            <figcaption>
+                                <h3>La palette du goût</h3>
+                                <p>Ménilmontant</p>
+                                <i class="fa-light fa-heart"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="images/restaurants/photo2.jpg" alt="La note enchantée">
+                            <figcaption>
+                                <h3>La note enchantée</h3>
+                                <p>Charonne</p>
+                                <i class="fa-light fa-heart"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="images/restaurants/photo3.jpg" alt="A la française">
+                            <figcaption>
+                                <h3>A la française</h3>
+                                <p>Cité Rouge</p>
+                                <i class="fa-light fa-heart"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </li>
 
                 <li>
-                    <span>2</span>
-                            <i class="fa-sharp fa-solid fa-list"></i>
-                            Composez votre menu
-                </li>
-
-                <li>
-                    <span>3</span>
-                        <i class="fa-sharp fa-solid fa-store"></i> 
-                        Dégustez au restaurant
-                </li>
-            </ul>
-        </section>
-
-        <main>
-            <section class="restaurants"  id="restaurants">
-                <ul>
-                <li>
-                <a href="#">
-                    <figure>
-                        <img src="images/restaurants/photo1.jpg" alt="La palette du gout">
-                    <figcaption>
-                        <h3>La palette du goût</h3>
-                        <p>Ménilmontant</p>
-                    <figure>
-                        <i class="fa-light fa-heart"></i>
-                    </figure>
-                    </figcaption>
-                    </figure>
-                </a>
-                </li>
-
-                <li>
-                <a href="#">
-                    <figure>
-                        <img src="images/restaurants/photo2.jpg" alt="La note enchantée">
-                    <figcaption>
-                        <h3>La note enchantée</h3>
-                        <p>Charonne</p>
-                    <figure>
-                        <i class="fa-light fa-heart"></i>
-                    </figure>
-                    </figcaption>
-                    </figure>
-                </a>
-                </li>
-
-                <li>
-                <a href="#">
-                    <figure>
-                        <img src="images/restaurants/photo3.jpg" alt="A la française">
-                    <figcaption>
-                        <h3>A la française</h3>
-                        <p>Cité Rouge</p>
-                    <figure>
-                        <i class="fa-light fa-heart"></i>
-                    </figure>
-                    </figcaption>
-                    </figure>
-                </a>
-                </li>
-
-                <li>
-                <a href="#">
-                    <figure>
-                        <img src="images/restaurants/photo4.jpg" alt="Le délice des sens">
-                    <figcaption>
-                        <h3>Le délice des sens</h3>
-                        <p>Folie-Méricourt</p>
-                    <figure>
-                        <i class="fa-light fa-heart"></i>
-                    </figure>
-                    </figcaption>
-                    </figure>
-                </a>
+                    <a href="#">
+                        <figure>
+                            <img src="images/restaurants/photo4.jpg" alt="Le délice des sens">
+                            <figcaption>
+                                <h3>Le délice des sens</h3>
+                                <p>Folie-Méricourt</p>
+                                <i class="fa-light fa-heart"></i>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </li>  
-            </ul>
-            </section>
-        </main>
-               
+        </ul>
+        </article>
+    </main>
 
-    </body>
+    <footer>
+
+    </footer>        
+</body>
