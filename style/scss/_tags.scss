@@ -1,3 +1,26 @@
+body {
+  margin: auto;
+  max-width: fit-content;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+
+  text-align: center;
+  height:113px;
+  font-family: Shrikhand, cursive;
+  color: $grey;
+  background-color: $white;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: $grey;
+  background-color: $grey;
+}
+
 ul {
   padding: 0;
   list-style: none;
@@ -17,36 +40,4 @@ img {
 a {
   text-decoration: none;
   color: $black;
-}
-
-
-body {
-margin: auto;
-max-width: fit-content;
-font-family: Roboto, sans-serif;
-}
-
-header {
-  font-family: Shrikhand, cursive;
-  color: $grey;
-  width: 375px;
-  height: 63px;
-  background-color: $white;
-}
-
-form {
-  display: flex;
-  flex-direction: row;
-  border: $grey;
-  background-color: $grey;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-}
-
-form {
-  display:flex;
-  justify-content: center;
 }
