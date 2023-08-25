@@ -1,5 +1,4 @@
 body {
-  margin: auto;
   max-width: fit-content;
   font-family: Roboto, sans-serif;
 }
@@ -10,14 +9,20 @@ header {
   font-family: Shrikhand, cursive;
   color: #353535;
   background-color: #FFF;
+  border-bottom: 3px solid #353535;
 }
 
 form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border: #353535;
-  background-color: #353535;
+  text-align: center;
+  background-color: #F3F3F3;
+  font-size: medium;
+  border: none;
+}
+
+form input {
+  text-align: center;
+  border: none;
+  background-color: #F3F3F3;
 }
 
 ul {
