@@ -5,24 +5,29 @@ body {
 
 header {
   text-align: center;
-  height: 113px;
   font-family: Shrikhand, cursive;
-  color: #353535;
+  color: #EAEAEA;
   background-color: #FFF;
-  border-bottom: 3px solid #353535;
+  padding: 20px;
+}
+
+header img {
+  height: 40px;
 }
 
 form {
   text-align: center;
-  background-color: #F3F3F3;
+  background-color: #EAEAEA;
   font-size: medium;
-  border: none;
+  box-shadow: 0 -5px 0 #D3D3D3;
 }
 
 form input {
-  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #EAEAEA;
+  height: 50px;
   border: none;
-  background-color: #F3F3F3;
 }
 
 ul {
@@ -44,6 +49,65 @@ img {
 a {
   text-decoration: none;
   color: #000;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+}
+
+section a {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  border-radius: 60px;
+  color: #FFF;
+  background-color: #9747FF;
+  padding: 15px;
+  border: 20px;
+  margin: auto;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+.fonctionnement li {
+  display: flex;
+  object-fit: contain;
+  flex-flow: row wrap;
+  align-items: center;
+  border: 5px solid #F3F3F3;
+  background-color: #FFF;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.fonctionnement li span {
+  display: flex;
+  object-fit: contain;
+  flex-flow: row wrap;
+  align-items: center;
+  color: #FFF;
+  background-color: #9747FF;
+  border-radius: 50px;
+  margin: 20px;
+  gap: 10px;
+  border: 1px solid #FFF;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
