@@ -59,6 +59,11 @@ p {
   margin: 20px;
 }
 
+a {
+  text-decoration: none;
+  color:$black;
+}
+
 section a {
   display: flex;
   justify-content: center;
@@ -76,8 +81,9 @@ section a {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  background-color: $silver;
+  background-color: $white;
   text-align: center;
+  justify-content: space-between;
 }
 
 .fonctionnement li{
@@ -85,10 +91,12 @@ section a {
   object-fit: contain;
   flex-flow: row wrap;
   align-items: center;
-  border: 5px solid $silver;
-  background-color: $white;
+  background-color: $silver;
   border-radius: 25px;
-  margin: 10px;
+  margin: 25px;
+  padding: 3px;
+  box-shadow: 0 4px 4px 4px $grey;
+  grid-gap: 5px;
 }
 
 .fonctionnement li span {
@@ -107,5 +115,12 @@ section a {
 }
 
 .btn{
-  background:linear-gradient(#purple, #magenta);
+  background:linear-gradient($purple, $magenta);
+  color:$white;
 }
+
+.restaurants {
+  background-color: $silver;
+  padding: 20px;
+}
+

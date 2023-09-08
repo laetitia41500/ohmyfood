@@ -58,6 +58,11 @@ p {
   margin: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 section a {
   display: flex;
   justify-content: center;
@@ -75,8 +80,9 @@ section a {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  background-color: #F3F3F3;
+  background-color: #FFF;
   text-align: center;
+  justify-content: space-between;
 }
 
 .fonctionnement li {
@@ -84,10 +90,12 @@ section a {
   object-fit: contain;
   flex-flow: row wrap;
   align-items: center;
-  border: 5px solid #F3F3F3;
-  background-color: #FFF;
+  background-color: #F3F3F3;
   border-radius: 25px;
-  margin: 10px;
+  margin: 25px;
+  padding: 3px;
+  box-shadow: 0 4px 4px 4px #EAEAEA;
+  grid-gap: 5px;
 }
 
 .fonctionnement li span {
@@ -106,7 +114,13 @@ section a {
 }
 
 .btn {
-  background: linear-gradient(#purple, #magenta);
+  background: linear-gradient(#9747FF, #D06ADB);
+  color: #FFF;
+}
+
+.restaurants {
+  background-color: #F3F3F3;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
