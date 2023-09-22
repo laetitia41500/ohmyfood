@@ -92,7 +92,7 @@ section a {
   align-items: center;
   background-color: #F3F3F3;
   border-radius: 25px;
-  margin: 25px;
+  margin: 30px;
   padding: 3px;
   box-shadow: 0 4px 4px 4px #EAEAEA;
   grid-gap: 5px;
@@ -114,13 +114,19 @@ section a {
 }
 
 .btn {
-  background: linear-gradient(#9747FF, #D06ADB);
+  background: linear-gradient(#D06ADB, #9747FF);
   color: #FFF;
 }
 
 .restaurants {
   background-color: #F3F3F3;
   padding: 20px;
+}
+
+.restaurants img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
