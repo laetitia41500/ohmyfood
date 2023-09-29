@@ -54,10 +54,6 @@ section {
   text-align: center;
 }
 
-p {
-  margin: 20px;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -119,6 +115,9 @@ section a {
 }
 
 .restaurants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #F3F3F3;
   padding: 20px;
 }
@@ -127,6 +126,36 @@ section a {
   height: 250px;
   width: 100%;
   object-fit: cover;
+}
+
+.restaurants figure {
+  border-radius: 15px;
+  background-color: #FFF;
+  margin: 25px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  padding: 15px 20px;
+}
+
+figcaption h3,
+figcaption p {
+  margin: 0;
+}
+
+figcaption i {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 20px;
+}
+
+i:hover {
+  color: #D06ADB;
+  background-color: #D06ADB;
 }
 
 /*# sourceMappingURL=style.css.map */

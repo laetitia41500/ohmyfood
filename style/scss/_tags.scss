@@ -55,10 +55,6 @@ section {
   text-align: center;
 }
 
-p {
-  margin: 20px;
-}
-
 a {
   text-decoration: none;
   color:$black;
@@ -120,6 +116,9 @@ section a {
 }
 
 .restaurants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: $silver;
   padding: 20px;
 }
@@ -129,3 +128,34 @@ section a {
   width: 100%;
   object-fit: cover;
 }
+
+.restaurants figure {
+  border-radius: 15px;
+  background-color: $white;
+  margin: 25px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  position: relative;
+  padding: 15px $figcaption-margin;
+}
+
+figcaption h3,
+figcaption p{
+  margin:0;
+}
+
+figcaption i {
+position: absolute;
+top:calc(50% - 8px);
+right: $figcaption-margin;
+}
+
+i:hover {
+color: $magenta;
+background-color: $magenta;
+}
+
