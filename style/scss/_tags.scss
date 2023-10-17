@@ -109,6 +109,10 @@ section a {
 .fonctionnement li:focus i {
   color: $purple;
 }
+.fonctionnement h2 {
+  text-align: left;
+}
+
 
 .btn{
   background: linear-gradient($magenta, $purple);
@@ -154,8 +158,10 @@ top:calc(50% - 8px);
 right: $figcaption-margin;
 }
 
-i:hover {
-color: $magenta;
-background-color: $magenta;
+i hover {
+  color: $purple;
+  background-clip:text ;
 }
+
+
 

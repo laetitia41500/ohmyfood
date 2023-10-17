@@ -109,6 +109,10 @@ section a {
   color: #9747FF;
 }
 
+.fonctionnement h2 {
+  text-align: left;
+}
+
 .btn {
   background: linear-gradient(#D06ADB, #9747FF);
   color: #FFF;
@@ -153,9 +157,9 @@ figcaption i {
   right: 20px;
 }
 
-i:hover {
-  color: #D06ADB;
-  background-color: #D06ADB;
+i hover {
+  color: #9747FF;
+  background-clip: text;
 }
 
 /*# sourceMappingURL=style.css.map */
